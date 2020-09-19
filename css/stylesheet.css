@@ -1,0 +1,148 @@
+/*Basics*/
+
+:root {
+--main-grey: #888888;
+--main-white: #FFFFFF;
+--text-black: #000000;
+--block-blue: #81B3D2;
+--search-brown: #766357;
+--block-color: #FFFFFF;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts\ptsans.woff") format("woff"),
+        url("fonts\ptsans.woff2") format("woff2");
+}
+
+/*Main*/
+
+.page-body {
+  background-color: var(--main-grey);
+font-family: "PT Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 26px;
+line-height: 26px;
+color: #000000;
+text-transform: uppercase;
+}
+
+.main-nav {
+font-weight: bold;
+text-transform: uppercase;
+background-color: var(--block-color);
+width: 1200px;
+height: 56px;
+margin: auto;
+background-position: top center;
+}
+
+.container {background-color: var(--block-color);
+width: 1200px;
+box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
+margin: auto;
+}
+
+.about {
+font-weight: bold;
+font-size: 21px;
+line-height: 26px;
+align-items: center;
+text-align: center;
+}
+
+.five-reasons {
+font-weight: normal;
+align-items: center;
+text-align: center;
+width: 1200px;
+}
+
+.features {background: #EEEEEE;}
+
+.reason {
+  background: #81B3D2;
+  width: 400px;
+  height: 256px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+color: #FFFFFF;}
+
+ul > p {
+font-weight: normal;
+line-height: 21px;
+align-items: center;
+text-align: center;}
+
+.interest > p {font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+align-items: center;
+text-align: center;
+text-transform: uppercase;}
+
+/*Footer*/
+
+.main-footer {
+width: 1200px;
+height: 120px;
+margin: auto;
+background-color: rgba(255, 255, 255, 0.9);}
+
+.contacts {
+  font-family: "PT Sans";
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 26px;
+}
+
+.credits {}
+
+/*Headers*/
+h1 {display: none;}
+
+.reason-head {font-weight: bold;
+font-size: 21px;
+line-height: 21px;}
+
+.reasons-item {
+font-weight: bold;
+font-size: 21px;
+line-height: 21px;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+}
+
+.choice {font-weight: bold;
+font-size: 30px;
+line-height: 24px;
+align-items: center;
+text-align: center;
+text-transform: uppercase;}
+
+/*Form*/
+
+.button {width: 458px;
+height: 58px;
+background: #81B3D2;
+color: var(--main-white);
+font-weight: bold;
+font-size: 21px;
+line-height: 26px;
+font-family: "PT Sans";
+font-style: normal;
+border: none;
+}
+
+.hotels-search {width: 568px;
+height: 86px;
+color: var(--main-white);
+background: #766357;
+font-family: inherit;}
+
+.form-input {font-weight: bold;}
