@@ -57,12 +57,11 @@ text-align: center;
 font-weight: normal;
 align-items: center;
 text-align: center;
-width: 1200px;
 }
 
 .features {background: #EEEEEE;}
 
-.reason {
+.first-reason, .second-reason {
   background: #81B3D2;
   width: 400px;
   height: 256px;
@@ -77,12 +76,16 @@ line-height: 21px;
 align-items: center;
 text-align: center;}
 
+li {list-style-type: none;
+}
+
 .interest > p {font-weight: normal;
 font-size: 14px;
 line-height: 21px;
 align-items: center;
 text-align: center;
-text-transform: uppercase;}
+text-transform: uppercase;
+}
 
 /*Footer*/
 
@@ -143,6 +146,18 @@ border: none;
 height: 86px;
 color: var(--main-white);
 background: #766357;
-font-family: inherit;}
+font-family: inherit;
+}
+
+.reason-head {}
 
 .form-input {font-weight: bold;}
+
+/*Hotels*/
+
+.hotels {width: 1200px;
+height: 540px;
+background: #FFFFFF;
+}
+
+.form
