@@ -1,62 +1,63 @@
 /*Basics*/
 
 :root {
---main-grey: #888888;
---main-white: #FFFFFF;
---text-black: #000000;
---block-blue: #81B3D2;
---search-brown: #766357;
---block-color: #FFFFFF;
+  --main-grey: #888888;
+  --main-white: #FFFFFF;
+  --text-black: #000000;
+  --block-blue: #81B3D2;
+  --search-brown: #766357;
+  --block-color: #FFFFFF;
+  --std-blue: #81B3D2;
 }
 
 @font-face {
   font-family: "Open Sans";
   src: url("fonts\ptsans.woff") format("woff"),
-        url("fonts\ptsans.woff2") format("woff2");
+  url("fonts\ptsans.woff2") format("woff2");
 }
 
 /*Main*/
 
 .page-body {
   background-color: var(--main-grey);
-font-family: "PT Sans";
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 26px;
-line-height: 26px;
-color: #000000;
-text-transform: uppercase;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 .main-nav {
-font-weight: bold;
-text-transform: uppercase;
-background-color: var(--block-color);
-width: 1200px;
-height: 56px;
-margin: auto;
-background-position: top center;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: var(--block-color);
+  width: 1200px;
+  heightx: 56px;
+  margin: auto;
+  background-position: top center;
 }
 
 .container {background-color: var(--block-color);
-width: 1200px;
-box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
-margin: auto;
+  width: 1200px;
+  box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
+  margin: auto;
 }
 
 .about {
-font-weight: bold;
-font-size: 21px;
-line-height: 26px;
-align-items: center;
-text-align: center;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
 }
 
 .five-reasons {
-font-weight: normal;
-align-items: center;
-text-align: center;
+  font-weight: normal;
+  align-items: center;
+  text-align: center;
 }
 
 .features {background: #EEEEEE;}
@@ -68,96 +69,115 @@ text-align: center;
   line-height: 21px;
   align-items: center;
   text-align: center;
-color: #FFFFFF;}
+  color: #FFFFFF;}
 
-ul > p {
-font-weight: normal;
-line-height: 21px;
-align-items: center;
-text-align: center;}
+  ul > p {
+    font-weight: normal;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;}
 
-li {list-style-type: none;
-}
+    li {list-style-type: none;
+    }
 
-.interest > p {font-weight: normal;
-font-size: 14px;
-line-height: 21px;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-}
+    .interest > p {font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      align-items: center;
+      text-align: center;
+      text-transform: uppercase;
+    }
 
-/*Footer*/
+    /*Footer*/
 
-.main-footer {
-width: 1200px;
-height: 120px;
-margin: auto;
-background-color: rgba(255, 255, 255, 0.9);}
+    .main-footer {
+      width: 1200px;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.9);}
 
-.contacts {
-  font-family: "PT Sans";
-font-style: normal;
-font-weight: bold;
-font-size: 21px;
-line-height: 26px;
-}
+      .contacts {
+        font-family: "PT Sans";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 26px;
+      }
 
-.credits {}
+      .credits {}
 
-/*Headers*/
-h1 {display: none;}
+        /*Headers*/
+        h1 {display: none;}
 
-.reason-head {font-weight: bold;
-font-size: 21px;
-line-height: 21px;}
+        .reason-head {font-weight: bold;
+          font-size: 21px;
+          line-height: 21px;}
 
-.reasons-item {
-font-weight: bold;
-font-size: 21px;
-line-height: 21px;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-}
+          .reasons-item {
+            font-weight: bold;
+            font-size: 21px;
+            line-height: 21px;
+            align-items: center;
+            text-align: center;
+            text-transform: uppercase;
+          }
 
-.choice {font-weight: bold;
-font-size: 30px;
-line-height: 24px;
-align-items: center;
-text-align: center;
-text-transform: uppercase;}
+          .choice {font-weight: bold;
+            font-size: 30px;
+            line-height: 24px;
+            align-items: center;
+            text-align: center;
+            text-transform: uppercase;}
 
-/*Form*/
+            /*Form*/
 
-.button {width: 458px;
-height: 58px;
-background: #81B3D2;
-color: var(--main-white);
-font-weight: bold;
-font-size: 21px;
-line-height: 26px;
-font-family: "PT Sans";
-font-style: normal;
-border: none;
-}
+            .button {width: 458px;
+              height: 58px;
+              background: #81B3D2;
+              color: var(--main-white);
+              font-weight: bold;
+              font-size: 21px;
+              line-height: 26px;
+              font-family: "PT Sans";
+              font-style: normal;
+              border: none;
+            }
 
-.hotels-search {width: 568px;
-height: 86px;
-color: var(--main-white);
-background: #766357;
-font-family: inherit;
-}
+            .hotels-search {width: 568px;
+              height: 86px;
+              color: var(--main-white);
+              background: #766357;
+              font-family: inherit;
+            }
 
-.reason-head {}
+            .form-input {font-weight: bold;}
 
-.form-input {font-weight: bold;}
+            /*Hotels*/
 
-/*Hotels*/
+            .hotels {width: 1200px;
+              background: #FFFFFF;
+            }
 
-.hotels {width: 1200px;
-height: 540px;
-background: #FFFFFF;
-}
+            .form {background-color: var(--main-grey);}
 
-.form
+            .imp  {color: var(--main-white);}
+
+            .hotel {
+              border-bottom: 1px #E5E5E5;
+            }
+
+            .hotelname {font-weight: bold;
+              font-size: 21px;
+              text-transform: uppercase;}
+
+              .button1, .button2 {
+                height: 27px;
+                border: none;
+                color: var(--main-white);
+                text-transform: uppercase;
+                font-weight: bold;
+                margin: auto;
+              }
+
+              .button1 {background-color: #81B3D2;}
+
+              .button2 {background-color: #766357;}
