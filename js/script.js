@@ -20,8 +20,9 @@ try {
   isStorageSupport = false;
 }
 
-
-themeButton.addEventListener('click', function() {
+  form.classList.add('search-form-container-hidden');
+themeButton.addEventListener('click', function(evt) {
+  evt.preventDefault();
   form.classList.toggle('search-form-container-hidden');
 });
 
