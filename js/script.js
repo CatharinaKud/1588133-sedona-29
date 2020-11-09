@@ -7,20 +7,7 @@ let adultsGuests = document.querySelector('.amount1');
 let childrenGuests = document.querySelector('.amount2');
 let blockReservation = document.querySelector('.search-form-container');
 
-let isStorageSupport = true;
-let storageAdultsGuests = "";
-let storageChildrenGuests = "";
-
-try {
-  storageAdultsGuests = localStorage.getItem('adultsGuests');
-  adultsGuests.value = storageAdultsGuests;
-  storageChildrenGuests = localStorage.getItem('childrenGuests');
-  childrenGuests.value = storageChildrenGuests;
-} catch (err) {
-  isStorageSupport = false;
-}
-
-  form.classList.add('search-form-container-hidden');
+form.classList.add('search-form-container-hidden');
 themeButton.addEventListener('click', function(evt) {
   evt.preventDefault();
   form.classList.toggle('search-form-container-hidden');
@@ -38,10 +25,5 @@ formReservation.addEventListener('submit', function(evt) {
     setTimeout(function() {
       blockReservation.classList.remove('modal-error');
     }, 1000);
-  } else {
-    if (isStorageSupport) {
-      localStorage.setItem('adultsGuests', adultsGuests.value);
-      localStorage.setItem('childrenGuests', childrenGuests.value);
-    }
   }
 });
